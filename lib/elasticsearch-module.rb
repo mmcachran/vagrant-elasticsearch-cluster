@@ -22,7 +22,7 @@ module Vagrant
 
             def get_vm_ip(index)
                 ip = get_cluster_info 'cluster_ip'
-                ip % (10 + index)
+                ip.strip % (10 + index)
             end
 
             def get_node_name(index)
