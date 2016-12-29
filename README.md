@@ -74,7 +74,7 @@ Execute this command :
 vagrant up
 ```
 
-By default, this command will boot 5 VMs, with `My amazing ES cluster` name, `512M` of RAM for each node and this network ip address `10.0.0.0`.
+By default, this command will boot 2 VMs, with `My amazing ES cluster` name, `512M` of RAM for each node and this network ip address `10.0.0.0`.
 
 You can change the cluster size with the `CLUSTER_COUNT` variable:
 
